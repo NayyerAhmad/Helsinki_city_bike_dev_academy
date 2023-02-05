@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Journey() {
-    return(
-        <div>
-            <h1>Journey</h1>
-        </div>
-    );
+const Journey = () => {
+  return (
+    <div>
+        asdf
+    </div>
+  )
 }
 
-export default Journey;
+export default Journey

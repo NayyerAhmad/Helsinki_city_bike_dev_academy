@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Station() {
-    return(
-        <div>
-            <h1>Station</h1>
-        </div>
-    );
+const Station = () => {
+  return (
+    <div>
+        asdf
+    </div>
+  )
 }
 
-export default Station;
+export default Station

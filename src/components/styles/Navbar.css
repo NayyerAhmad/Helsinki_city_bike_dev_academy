@@ -1,0 +1,27 @@
+.sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+
+.logo {
+    margin-left: 1rem;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.ul {
+    display: flex;
+    margin: 25px;
+}
+
+.ul.item {
+    display: flex;
+}
+
+.item.li {
+    margin: 0 1rem;
+}
