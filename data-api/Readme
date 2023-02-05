@@ -1,0 +1,10 @@
+python3 -m venv solita
+source solita/bin/activate
+pip3 install install psycopg2
+docker pull postgres
+docker run --name some-postgres -e POSTGRES_PASSWORD=solita123!! -d postgres
+
+- ALTER TABLE journey ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY;
+- DELETE FROM journey WHERE duration < 10;
+- DELETE FROM journey WHERE `covered_distance` < 10;
+- No blank values and No negative values
